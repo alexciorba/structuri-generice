@@ -1,4 +1,6 @@
-package com.company;
+package com.company.comparatori;
+
+import com.company.model.Masina;
 
 import java.util.Comparator;
 

@@ -1,5 +1,9 @@
-package com.company;
+package com.company.simple;
 
+
+import com.company.comparatori.ComparatorMasinaCuloare;
+import com.company.comparatori.ComparatorMasinaMarca;
+import com.company.model.Masina;
 
 public class Lista {
 

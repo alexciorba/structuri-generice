@@ -1,9 +1,10 @@
 package com.company;
 
+import com.company.comparatori.ComparatorMasinaMarca;
+import com.company.generice.ListaImpl;
+import com.company.simple.Lista;
+import com.company.model.Masina;
 import org.junit.jupiter.api.Test;
-
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class MasinaTest {
 
@@ -26,10 +27,17 @@ class MasinaTest {
         lista.addStart(skoda);
         lista.addStart(ford);
 
-        lista.addStart(citroen);
-       // lista.afisare();
-        lista.sortCompareMarca();
-        lista.afisare();
+//        lista.addStart(citroen);
+//       // lista.afisare();
+//        lista.sortCompareMarca();
+//        lista.afisare();
+
+
+        ListaImpl lista1=new ListaImpl();
+        lista1.add(audi);
+        lista1.add(bmw);
+
+
 
 
     }

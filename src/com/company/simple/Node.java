@@ -1,4 +1,6 @@
-package com.company;
+package com.company.simple;
+
+import com.company.model.Masina;
 
 public class Node {
 

@@ -1,4 +1,4 @@
-package com.company;
+package com.company.model;
 
 public class Masina implements Comparable<Masina> {
 
