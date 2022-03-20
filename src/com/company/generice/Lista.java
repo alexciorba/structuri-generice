@@ -12,6 +12,7 @@ public interface Lista <T extends Comparable<T>>{
      int indexOf(T data);
      T get(int index);
      void set(T data ,int index);
+     void sortare();
 
     Node<T> iterator();
 

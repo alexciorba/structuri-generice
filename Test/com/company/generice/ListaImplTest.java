@@ -29,12 +29,12 @@ class ListaImplTest {
         masinaLista.add(skoda);
         masinaLista.add(citroen);
 
-        //todo: test add
-        Node<Masina> aux=masinaLista.iterator();
-        while (aux!=null){
-            System.out.println(aux.getData());
-            aux=aux.getNext();
-        }
+//        //todo: test add
+//        Node<Masina> aux=masinaLista.iterator();
+//        while (aux!=null){
+//            System.out.println(aux.getData());
+//            aux=aux.getNext();
+//        }
 
         //todo: testeaza contains
 
@@ -57,6 +57,14 @@ class ListaImplTest {
 
         masinaLista.set(masina,0);
 
+        //todo: testeaza sortarea
+
+        masinaLista.sortare();
+        Node<Masina> aux=masinaLista.iterator();
+        while (aux!=null){
+            System.out.println(aux.getData());
+            aux=aux.getNext();
+        }
 
 
     }
@@ -68,6 +76,8 @@ class ListaImplTest {
         Lista<Persoana>listaPersoane=new ListaImpl<>();
 
     }
+
+
 
 
 

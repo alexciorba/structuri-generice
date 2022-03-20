@@ -120,5 +120,35 @@ public class ListaImpl <T extends Comparable<T>> implements Lista<T>{
         return   data;
     }
 
+    //sort
+
+    public void sortare(){
+
+
+     boolean flag=true;
+     do{
+         flag=true;
+
+          for(int i=0;i<size()-1;i++){
+
+              if(this.get(i).compareTo(this.get(i+1))>0){
+                  T aux=get(i);
+
+                  set(get(i+1),i);
+
+                  set(aux,i+1);
+
+                  flag=false;
+
+              }
+
+          }
+
+     }while (flag==false);
+
+    }
+
+
+
 
 }
