@@ -6,4 +6,6 @@ public interface Stiva<T> {
     void pop();
     T peek();
     void display();
+    boolean isEmpty();
+
 }

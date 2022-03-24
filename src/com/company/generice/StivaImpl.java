@@ -43,4 +43,14 @@ public class StivaImpl<T> implements Stiva<T>{
 
 
     }
+
+
+
+    @Override
+    public boolean isEmpty() {
+        if(top==null){
+            return true;
+        }
+        return false;
+    }
 }
